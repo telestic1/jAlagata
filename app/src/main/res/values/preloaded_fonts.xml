@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="preloaded_fonts" translatable="false">
+        <item>@font/libre_caslon_display</item>
         <item>@font/love_ya_like_a_sister</item>
         <item>@font/montserrat_alternates_extralight</item>
         <item>@font/montserrat_alternates_medium</item>
