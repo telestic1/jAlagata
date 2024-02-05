@@ -13,6 +13,21 @@
         android:theme="@style/Theme.JAlagata"
         tools:targetApi="31">
         <activity
+            android:name=".EditJagalataActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ArticleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".profileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SavedArticleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SavedArticlesActivity"
+            android:exported="false" />
+        <activity
             android:name=".ReadMoreActivity"
             android:exported="false" />
         <activity

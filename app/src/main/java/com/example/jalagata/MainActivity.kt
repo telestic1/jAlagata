@@ -29,6 +29,19 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
+//to go save article page
+        binding.saveArticleBtn.setOnClickListener {
+            startActivity(Intent(this,SavedArticleActivity::class.java))
+        }
+      //to go to progile activity
+binding.profileImage.setOnClickListener {
+    startActivity(Intent(this ,profileActivity::class.java))
+}
+        //to go to progile activity
+        binding.cardView2.setOnClickListener {
+            startActivity(Intent(this ,profileActivity::class.java))
+        }
+
 
         auth = FirebaseAuth.getInstance()
         databaseReference =FirebaseDatabase.getInstance() .getReference().child("blogs")
